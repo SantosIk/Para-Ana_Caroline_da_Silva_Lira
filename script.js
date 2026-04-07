@@ -8,6 +8,7 @@ yesButton.addEventListener("click", () => {
     "FINALMENTE!!! Eu te amo, vida! Assinado Paulo Augusto Taveira dos Santos, também conhecido, seu eterno namorado.";
   response.classList.remove("hidden");
   image.classList.remove("hidden");
+  image.style.display = "block";
   yesButton.disabled = true;
   noButton.disabled = true;
 });
