@@ -5,7 +5,7 @@ const image = document.querySelector("img");
 
 yesButton.addEventListener("click", () => {
   response.textContent =
-    "FINALMENTE!!! Eu te amo, vida! Assinado Paulo Augusto Taveira dos Santos, também conhecido, seu eterno namorado.";
+    "FINALMENTE!!! Eu te amo, vida! Assinado Paulo Augusto Taveira dos Santos, também conhecido, o homem da tua vida.";
   response.classList.remove("hidden");
   image.classList.remove("hidden");
   image.style.display = "block";
